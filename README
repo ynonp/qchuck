@@ -4,5 +4,8 @@ QChuck Qt Chuck Norris Client Example
 A demo Qt web client application which uses the Chuck Norris jokes API
 (http://www.icndb.com/api/) to demonstrate networking code in Qt.
 
-We also use qjson lib to parse JSON objects.
+We also use qjson lib to parse JSON objects. In order to run this project, you need
+download and compile qjson from:
+http://qjson.sourceforge.net/
+
 
