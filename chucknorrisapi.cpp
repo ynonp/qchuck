@@ -15,7 +15,7 @@ void ChuckNorrisAPI::randomChuckNorrisJoke()
 
 void ChuckNorrisAPI::randomJoke( const QString &firstName, const QString &lastName)
 {
-    getRequest( kBaseUrl + QString("/jokes/random?firstName=%1&lastname=%2").arg(firstName, lastName) );
+    getRequest( kBaseUrl + QString("/jokes/random?firstName=%1&lastName=%2").arg(firstName, lastName) );
 }
 
 void ChuckNorrisAPI::getRequest( const QString &urlString )

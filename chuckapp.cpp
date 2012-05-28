@@ -17,9 +17,9 @@ void ChuckApp::start(QStringList args)
 {
     QObject::connect(&m_api, SIGNAL(jokeReady(QByteArray)), this, SLOT(showJoke(QByteArray)));
 
-    if ( args.size() == 2 )
+    if ( args.size() == 3 )
     {
-        m_api.randomJoke( args.at(0), args.at(1) );
+        m_api.randomJoke( args.at(1), args.at(2) );
     }
     else
     {
